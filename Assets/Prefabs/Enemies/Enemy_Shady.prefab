@@ -5379,7 +5379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8037804666040141083
 Transform:
   m_ObjectHideFlags: 0
@@ -5515,7 +5515,7 @@ MonoBehaviour:
     baseValue: 0
     modifiers: 
   fireDamage:
-    baseValue: 0
+    baseValue: 5
     modifiers: 
   iceDamage:
     baseValue: 0
@@ -5532,7 +5532,7 @@ MonoBehaviour:
   shockedTimer: 0
   igniteDamageCoolDown: 0.3
   igniteDamageTimer: 0
-  shockStrikePrefab: {fileID: 0}
+  shockStrikePrefab: {fileID: 949277481920172465, guid: c878cb6ee000b764ea979db05ab75c4e, type: 3}
   currentHealth: 0
   isVulnerable: 0
   soulsDropAmount:
@@ -5581,7 +5581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e899226a304a124bb2b785b1e2fdaa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxItemsToDrop: 1
+  maxItemsToDrop: 2
   ItemPool:
   - {fileID: 11400000, guid: a3f138f7225dc64418e9cdd3a086039c, type: 2}
   - {fileID: 11400000, guid: 9d4587a0019226448a17ec0ac492e681, type: 2}
@@ -5605,7 +5605,7 @@ MonoBehaviour:
   knockbackOffSet: {x: 0.5, y: 2}
   knockbackDuration: 0.07
   attackCheck: {fileID: 3879304208802742307}
-  attackCheckRadius: 2.5
+  attackCheckRadius: 3
   groundCheck: {fileID: 4994714769142062347}
   groundCheckDistance: 1
   wallCheck: {fileID: 9077353714619810797}

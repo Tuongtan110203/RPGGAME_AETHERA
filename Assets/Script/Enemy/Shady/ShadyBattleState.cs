@@ -105,7 +105,7 @@ public class ShadyBattleState : EnemyState
 
     private void DealExplosionDamage()
     {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(enemy.transform.position, enemy.attackCheckRadius * 7);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(enemy.transform.position, enemy.attackCheckRadius * 3);
         foreach (var hit in colliders)
         {
             CharacterStats targetStats = hit.GetComponent<CharacterStats>();

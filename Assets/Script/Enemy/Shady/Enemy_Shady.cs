@@ -82,6 +82,6 @@ public class Enemy_Shady : Enemy
     {
         base.OnDrawGizmos();
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackCheckRadius * 7);
+        Gizmos.DrawWireSphere(transform.position, attackCheckRadius * 3);
     }
 }

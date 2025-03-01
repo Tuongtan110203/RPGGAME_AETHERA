@@ -10,6 +10,13 @@ namespace Assets.Script.Enemy.DeathBringer
         {
             this.enemy = _enemy;
         }
+
+        public override void AnimationFinishTrigger()
+        {
+            base.AnimationFinishTrigger();
+
+            GameObject.Destroy(enemy.gameObject);
+        }
         public override void Enter()
         {
             base.Enter();
