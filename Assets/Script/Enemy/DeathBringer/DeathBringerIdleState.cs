@@ -39,10 +39,7 @@ public class DeathBringerIdleState : EnemyState
         {
             stateMachine.ChangeState(enemy.battleState);
         }
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            stateMachine.ChangeState(enemy.teleportState);
-        }
+      
     }
 
 }

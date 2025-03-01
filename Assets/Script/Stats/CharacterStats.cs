@@ -209,7 +209,7 @@ public class CharacterStats : MonoBehaviour
 
         _targetStats.TakeDamage(totalDamage);
 
-        //DoMagicalDamage(_targetStats);  //remove if you dont't want to apply magic hit on primary attack
+        DoMagicalDamage(_targetStats);  //remove if you dont't want to apply magic hit on primary attack
     }
     public virtual void DoMagicalDamage(CharacterStats _targetStats)
     {
